@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        h1{
+            color: blue;
+        }
+        h1:hover{
+            color: mediumpurple;
+            background-color: black;
+
+          
+            font-weight: 700;
+        }
+        .middle-person:focus{
+            color: chartreuse;
+        }
+        a:visited{
+            color: red;
+        }
+        li:first-child{
+            color: rgb(65, 218, 65);
+        }
+        li:last-child{
+            background-color: blue;
+        }
+        li:nth-child(2n){
+            color: red;
+        }
+        li:nth-child(2n+1){
+            background-color: blueviolet;
+        }
+        h3::before{
+            content: 'Hello ';
+        }
+        h3::after{
+            content: ' gelo';
+            background-color: aquamarine;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text"> <br>
+    <a href="https://www.typescriptlang.org/docs/handbook/dom-manipulation.html">visit</a><br>
+    <a href="https://www.youtube.com/">new</a> <br>
+    <a href="rshabib.com">boss</a>
+
+    <ul>
+        <li>Purnima</li>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Mariya</li>
+        <li>Mariha</li>
+        <li>Purnima</li>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Mariya</li>
+        <li>Mariha</li>
+    </ul>
+    <h3>Middle size header -1</h3>
+    <h3>Middle size header -2</h3>
+    <h3>Middle size header -3</h3>
+    <h3>Middle size header -4</h3>
+    <h3>Middle size header -5</h3>
+    <h3>Middle size header -6</h3>
+</body>
+</html>
